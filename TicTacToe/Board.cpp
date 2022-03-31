@@ -48,7 +48,7 @@ void Board::taruhSimbol(int koor, char simbol)
 	{
 		while (tempKoor == koor)
 		{
-			cout << "Sudah ditempati" << endl;
+			cout << "Telah diisi" << endl;
 			cout << "Input : "; cin >> tempKoor;
 		}
 		papan[tempKoor] = simbol;
